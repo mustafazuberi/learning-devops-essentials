@@ -1,0 +1,20 @@
+For example, if there is a developer with a local machine, there will be some configurations on his local machine.
+
+For example, he has Windows 11, an Intel processor, version 16 of Node.js, version 5 of MongoDB, and Redis version 6. He is running his Node.js application. The purpose is that the developer has all the tools installed in his local environment for running his application. So in this case the developer is happy and there is no problem.
+
+Now, for example, if we get another developer, let's say he arrives after two to three years. The first problem would be when he tries to set up this project. He would probably just clone the project from the GitHub repo URL. Now, we will need to tell him that he needs to install all these things (Windows 11, an Intel processor, version 16 of Node.js, version 5 of MongoDB, and Redis version 6). Honestly, nobody remembers what services we installed. Even we don't remember. Also, there are tools that are common examples, but there are a lot of small services running in the background to run the app.
+
+The another problem is there is an extra effort to setup all the enviroment. 
+
+Now, assume the new developer has a Mac OS. If he installs Node.js and all the other tools, but by mistake installs the wrong versions or the latest versions, there is a high chance that there will be errors and the application won't run correctly. This is because the environment is not the same as the original developer's environment.
+
+The new developer will then need to contact the original developer to find out the correct versions to install. However, sometimes the problem is that some tools are specific to Windows and not available for Mac OS. The main problem is that replicating multiple environments is very difficult.
+
+Another problem is that once both developers have set up and run the project locally, they will need to configure everything again when deploying to the cloud, whether it's AWS, DigitalOcean, or any other cloud provider. This process can be very challenging, especially in open-source projects or large teams, as it would be a big pain to set up the environment repeatedly.
+
+That's why we use Docker. How does Docker solve this problem?
+We create a container using Docker and configure it with all the necessary settings, such as the versions of Node.js and MongoDB. We can then share these containers with our team, ensuring everyone has the same environment.
+For example, if we are running Linux in that container, we can run the container on any operating system, whether it's macOS or Windows, and still use Linux within the container.
+
+That's why containers are a very powerful concept. These containers are so lightweight that we can build, deploy in the cloud, and share them with people. Each container has its own OS, tools, and configurations.
+
