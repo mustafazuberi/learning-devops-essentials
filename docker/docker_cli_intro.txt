@@ -1,0 +1,4 @@
+"docker run -it ubuntu": This command will run the Ubuntu Docker image, and we will be inside that container. If we don't have this image downloaded, it will show an error, and then we can install the image using:
+"docker pull ubuntu"
+
+

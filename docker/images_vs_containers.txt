@@ -1,0 +1,29 @@
+When we talk about Docker, we are essentially discussing images and containers.
+For example, we have MacBooks running the Darwin operating system on our machines.
+Similarly, images are a type of operating system, and we need containers to run these images.
+
+Containers cannot do anything by themselves; we need to run some image in the containers.
+All containers are isolated, meaning the data of one container cannot be accessed by another. Two containers cannot 
+communicate with each other.
+
+We can have the same images in separate containers, just like we can run the same Windows 11 on two laptops.
+So, images are like operating systems, and containers are like laptops, if that makes sense.
+
+When we work in actual development, we create custom images.
+For example, we can have an image running Ubuntu with Node.js, MongoDB, Redis, etc., installed. We can create a custom image of that setup with a name like "ubuntu-with-tools".
+Then, I can give this image to my developers and instruct them to run this image in their containers.
+I can also publish this image on Docker Hub, and my developers can access it from there.
+
+COMMANDS:-
+By using the command "docker container ls", we can see all the running Docker containers.
+
+By using the command "docker container ls -a", we can see all containers, both running and stopped.
+
+Each container has a unique name and ID. The advantage of this is that we can start any container using its name with the command "docker start [container name]". 
+Similarly we can say "docker stop [container name]" to stop it.
+
+For example, if we run the command "docker exec quirky_borg ls", it means we are executing the "ls" command inside the container named "quirky_borg". However, after running this command, it will return to our terminal.
+
+If we want to stay inside the container's terminal even after running the command, we need to use "docker exec -it quirky_borg ls".
+
+The `-it` option allows us to connect our terminal to the Docker container's terminal and keep it open without disconnecting.
