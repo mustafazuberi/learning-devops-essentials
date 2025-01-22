@@ -1,0 +1,9 @@
+When we run a server on a specific port inside a container, we can't access it directly from our local machine. This is because the container is an isolated environment, separate from our local machine.
+
+To make the server accessible, we need to expose the container's port to our local machine. We can do this by running the command "docker run -it -p 1025:1025". This command maps the container's port 1025 to port 1025 on our local machine.
+command: docker run -it -p [local machine port]:[container port] [image name]
+
+
+we can also pass enviroment variables in our docker container like this
+
+docker run -it -p [local machine port]:[container port] -e key=value -e key=value [image name]
