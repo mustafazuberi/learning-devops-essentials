@@ -1,0 +1,4 @@
+**** Can you have multiple virtual machines in VirtualBox? ****
+- Yes! You can create as many virtual machines as you want in VirtualBox, as long as your actual computer
+has enough space and memory (RAM) to support them. For example, you could have one VM running Linux and 
+another running a different operating system at the same time.

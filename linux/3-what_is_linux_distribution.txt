@@ -1,0 +1,5 @@
+**** What is a Linux Distributor (Linux Distribution)? ****
+- Linux isn't a single "thing." There are many versions of Linux, and each version is called a distribution
+ (or distro for short). A "Linux distribution" is basically a version of Linux that comes packaged with
+  different software and features.
+- Some popular Linux distributions are Ubuntu, Fedora, Debian, Mint, etc.

@@ -1,0 +1,5 @@
+**** 'Why do we need VirtualBox ? ****
+- VirtualBox is like a manager for virtual machines (VMs). It allows you to create','and run virtual
+  computers (VMs) on your actual computer.
+- We use VMs because they let you try out different operating systems (like Linux) without messing with
+  your current setup.'

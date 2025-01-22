@@ -1,0 +1,6 @@
+**** Why do you need a Linux distribution? **** 
+- The Linux distribution is what you'll actually install and run on your virtual machine. It’s like choosing which flavor of ice cream you want—each distribution has its own look, feel, and features.
+- Ubuntu is often recommended for beginners because:
+  i - Easy to Use: It has a simple and friendly interface.
+  ii - Lots of Support: If you run into problems, there are tons of tutorials, guides, and forums to help you.
+  iii - Beginner-Friendly: It’s built with beginners in mind, so it’s a great way to start learning Linux.

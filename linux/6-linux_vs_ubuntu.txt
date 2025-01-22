@@ -1,0 +1,14 @@
+**** What’s the difference between Linux and Ubuntu? ****
+
+Linux is like the core foundation or framework. It’s the base operating system that everything else is built on. Just like how React JS is a framework for building user interfaces, Linux is the core system on which different "versions" or "distributions" are built.
+
+Ubuntu is one of the many versions (or distributions) of Linux, just like different versions of React exist. So Ubuntu is like a version of Linux that comes packaged with a lot of tools, apps, and a user-friendly interface for beginners.
+
+Example:
+Imagine Linux is like a car engine. It’s powerful but not very user-friendly on its own.
+Ubuntu (and other distributions) is like the whole car built around that engine. It comes with doors, seats, and a dashboard—making it easier for you to "drive" (use the operating system).
+In this analogy:
+
+Linux = Car engine (the core system)
+Ubuntu = The full car (the complete package, ready for you to use)
+
