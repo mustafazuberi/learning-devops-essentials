@@ -1,0 +1,5 @@
+Let's say you contribute to open source projects, and you need to run multiple containers. For example, you might need to run a PostgreSQL container and expose port 5432. Additionally, you might need to run a Redis container and expose port 6372.
+
+In real-world development, we often use multiple containers, each with its own configuration and port mappings. One way to manage this is to write down the commands and run them one by one, but that's not the most efficient method.
+
+The problem is that if a project requires multiple containers, you need to know which containers to run. The solution to this is Docker Compose. With Docker Compose, you can set up, create, and destroy multiple containers easily.

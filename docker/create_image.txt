@@ -1,0 +1,3 @@
+If we run the command "docker build .", it will look for the Dockerfile in the specified path "." and build an image using the Dockerfile available in that path with a randomly generated name.
+
+if we want to make a image but with our provided name we can run command "docker build -t [desired-name] ."
